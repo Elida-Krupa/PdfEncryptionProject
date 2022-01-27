@@ -131,7 +131,7 @@ for x, file_name in enumerate(filelist):
 
                         file_open = True
         pdf_in_file.close()
-        #os.remove(file_folder + "/" + file_name)
+        os.remove(file_folder + "/" + file_name)
     except Exception as ex:
         print(ex)
 
